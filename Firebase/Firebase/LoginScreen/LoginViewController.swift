@@ -10,16 +10,15 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    let loginStackView = LoginStackView()
-    let viewHeight = UIScreen.main.bounds.size.height * 0.300
+    private let loginStackView = LoginStackView()
+    private let screenHeight = UIScreen.main.bounds.size.height * 0.500
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         setupView()
     }
 
-    func setupView() {
+    private func setupView() {
         view.addSubview(loginStackView)
         loginStackView.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .white
@@ -27,9 +26,8 @@ class LoginViewController: UIViewController {
         NSLayoutConstraint.activate([
             loginStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
             loginStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
-            loginStackView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -viewHeight)
+            loginStackView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -screenHeight)
         ])
     }
-
 }
 

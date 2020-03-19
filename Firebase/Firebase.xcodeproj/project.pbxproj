@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		EDE00361BEC74CA0C5E11533 /* Pods_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D981FD3960C7A13292E73ADB /* Pods_Firebase.framework */; };
+		F485FC4924239CF6004BFE2E /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485FC4824239CF6004BFE2E /* BalanceViewController.swift */; };
+		F485FC4B24239E3F004BFE2E /* BalanceStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485FC4A24239E3F004BFE2E /* BalanceStackView.swift */; };
+		F485FC4F2423EE3A004BFE2E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485FC4E2423EE3A004BFE2E /* HomeViewController.swift */; };
+		F485FC512423F204004BFE2E /* HomeStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485FC502423F204004BFE2E /* HomeStackView.swift */; };
+		F485FC5324240296004BFE2E /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485FC5224240296004BFE2E /* PaymentViewController.swift */; };
 		F49D0A3324226B3D0050690B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A3224226B3D0050690B /* AppDelegate.swift */; };
 		F49D0A3724226B3D0050690B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A3624226B3D0050690B /* LoginViewController.swift */; };
 		F49D0A3C24226B3F0050690B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D0A3B24226B3F0050690B /* Assets.xcassets */; };
 		F49D0A3F24226B3F0050690B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D0A3D24226B3F0050690B /* LaunchScreen.storyboard */; };
 		F49D0A492422A25F0050690B /* LoginStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A482422A25F0050690B /* LoginStackView.swift */; };
+		F4C2CB9724240355002B65DF /* PaymentStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2CB9624240355002B65DF /* PaymentStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10969F000641E75A46B2CA1F /* Pods-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-Firebase/Pods-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 		D981FD3960C7A13292E73ADB /* Pods_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC08A2B8D8A28256DD0F9EB5 /* Pods-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.release.xcconfig"; path = "Target Support Files/Pods-Firebase/Pods-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		F485FC4824239CF6004BFE2E /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		F485FC4A24239E3F004BFE2E /* BalanceStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceStackView.swift; sourceTree = "<group>"; };
+		F485FC4E2423EE3A004BFE2E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F485FC502423F204004BFE2E /* HomeStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStackView.swift; sourceTree = "<group>"; };
+		F485FC5224240296004BFE2E /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		F49D0A2F24226B3D0050690B /* Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D0A3224226B3D0050690B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49D0A3624226B3D0050690B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +37,7 @@
 		F49D0A3E24226B3F0050690B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49D0A4024226B3F0050690B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49D0A482422A25F0050690B /* LoginStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStackView.swift; sourceTree = "<group>"; };
+		F4C2CB9624240355002B65DF /* PaymentStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F485FC4724239C3E004BFE2E /* BalanceScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F485FC4824239CF6004BFE2E /* BalanceViewController.swift */,
+				F485FC4A24239E3F004BFE2E /* BalanceStackView.swift */,
+			);
+			path = BalanceScreen;
+			sourceTree = "<group>";
+		};
+		F485FC4C2423EDB4004BFE2E /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F485FC4E2423EE3A004BFE2E /* HomeViewController.swift */,
+				F485FC502423F204004BFE2E /* HomeStackView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		F485FC4D2423EDCB004BFE2E /* PaymentScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F485FC5224240296004BFE2E /* PaymentViewController.swift */,
+				F4C2CB9624240355002B65DF /* PaymentStackView.swift */,
+			);
+			path = PaymentScreen;
+			sourceTree = "<group>";
+		};
 		F49D0A2624226B3D0050690B = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +117,11 @@
 		F49D0A3124226B3D0050690B /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				F49D0A472422A1CF0050690B /* SupportFiles */,
 				F49D0A462422A1B20050690B /* LoginScreen */,
+				F485FC4C2423EDB4004BFE2E /* HomeScreen */,
+				F485FC4724239C3E004BFE2E /* BalanceScreen */,
+				F485FC4D2423EDCB004BFE2E /* PaymentScreen */,
+				F49D0A472422A1CF0050690B /* SupportFiles */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -236,9 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C2CB9724240355002B65DF /* PaymentStackView.swift in Sources */,
 				F49D0A3724226B3D0050690B /* LoginViewController.swift in Sources */,
 				F49D0A492422A25F0050690B /* LoginStackView.swift in Sources */,
 				F49D0A3324226B3D0050690B /* AppDelegate.swift in Sources */,
+				F485FC5324240296004BFE2E /* PaymentViewController.swift in Sources */,
+				F485FC4B24239E3F004BFE2E /* BalanceStackView.swift in Sources */,
+				F485FC512423F204004BFE2E /* HomeStackView.swift in Sources */,
+				F485FC4924239CF6004BFE2E /* BalanceViewController.swift in Sources */,
+				F485FC4F2423EE3A004BFE2E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
