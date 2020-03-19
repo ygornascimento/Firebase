@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDE00361BEC74CA0C5E11533 /* Pods_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D981FD3960C7A13292E73ADB /* Pods_Firebase.framework */; };
 		F49D0A3324226B3D0050690B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A3224226B3D0050690B /* AppDelegate.swift */; };
-		F49D0A3524226B3D0050690B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A3424226B3D0050690B /* SceneDelegate.swift */; };
-		F49D0A3724226B3D0050690B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A3624226B3D0050690B /* ViewController.swift */; };
-		F49D0A3A24226B3D0050690B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D0A3824226B3D0050690B /* Main.storyboard */; };
+		F49D0A3724226B3D0050690B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A3624226B3D0050690B /* LoginViewController.swift */; };
 		F49D0A3C24226B3F0050690B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D0A3B24226B3F0050690B /* Assets.xcassets */; };
 		F49D0A3F24226B3F0050690B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D0A3D24226B3F0050690B /* LaunchScreen.storyboard */; };
+		F49D0A492422A25F0050690B /* LoginStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D0A482422A25F0050690B /* LoginStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10969F000641E75A46B2CA1F /* Pods-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-Firebase/Pods-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		D981FD3960C7A13292E73ADB /* Pods_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC08A2B8D8A28256DD0F9EB5 /* Pods-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.release.xcconfig"; path = "Target Support Files/Pods-Firebase/Pods-Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		F49D0A2F24226B3D0050690B /* Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D0A3224226B3D0050690B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F49D0A3424226B3D0050690B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F49D0A3624226B3D0050690B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F49D0A3924226B3D0050690B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49D0A3624226B3D0050690B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F49D0A3B24226B3F0050690B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49D0A3E24226B3F0050690B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49D0A4024226B3F0050690B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49D0A482422A25F0050690B /* LoginStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE00361BEC74CA0C5E11533 /* Pods_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1470F85136DE69E6C13ED516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D981FD3960C7A13292E73ADB /* Pods_Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C966C23E58A3B1D71DF4FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10969F000641E75A46B2CA1F /* Pods-Firebase.debug.xcconfig */,
+				DC08A2B8D8A28256DD0F9EB5 /* Pods-Firebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F49D0A2624226B3D0050690B = {
 			isa = PBXGroup;
 			children = (
 				F49D0A3124226B3D0050690B /* Firebase */,
 				F49D0A3024226B3D0050690B /* Products */,
+				32C966C23E58A3B1D71DF4FA /* Pods */,
+				1470F85136DE69E6C13ED516 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,30 @@
 		F49D0A3124226B3D0050690B /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				F49D0A472422A1CF0050690B /* SupportFiles */,
+				F49D0A462422A1B20050690B /* LoginScreen */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F49D0A462422A1B20050690B /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F49D0A3624226B3D0050690B /* LoginViewController.swift */,
+				F49D0A482422A25F0050690B /* LoginStackView.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		F49D0A472422A1CF0050690B /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
 				F49D0A3224226B3D0050690B /* AppDelegate.swift */,
-				F49D0A3424226B3D0050690B /* SceneDelegate.swift */,
-				F49D0A3624226B3D0050690B /* ViewController.swift */,
-				F49D0A3824226B3D0050690B /* Main.storyboard */,
 				F49D0A3B24226B3F0050690B /* Assets.xcassets */,
 				F49D0A3D24226B3F0050690B /* LaunchScreen.storyboard */,
 				F49D0A4024226B3F0050690B /* Info.plist */,
 			);
-			path = Firebase;
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49D0A4324226B3F0050690B /* Build configuration list for PBXNativeTarget "Firebase" */;
 			buildPhases = (
+				9A9BEFCE7F1DC65A993FBE8D /* [CP] Check Pods Manifest.lock */,
 				F49D0A2B24226B3D0050690B /* Sources */,
 				F49D0A2C24226B3D0050690B /* Frameworks */,
 				F49D0A2D24226B3D0050690B /* Resources */,
+				D26A7EDCA7EE6A2C974040DE /* [CP] Embed Pods Frameworks */,
+				F333FF2031371EFB80BA949B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,34 +167,84 @@
 			files = (
 				F49D0A3F24226B3F0050690B /* LaunchScreen.storyboard in Resources */,
 				F49D0A3C24226B3F0050690B /* Assets.xcassets in Resources */,
-				F49D0A3A24226B3D0050690B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A9BEFCE7F1DC65A993FBE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26A7EDCA7EE6A2C974040DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase/Pods-Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase/Pods-Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase/Pods-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F333FF2031371EFB80BA949B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase/Pods-Firebase-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase/Pods-Firebase-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase/Pods-Firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F49D0A2B24226B3D0050690B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49D0A3724226B3D0050690B /* ViewController.swift in Sources */,
+				F49D0A3724226B3D0050690B /* LoginViewController.swift in Sources */,
+				F49D0A492422A25F0050690B /* LoginStackView.swift in Sources */,
 				F49D0A3324226B3D0050690B /* AppDelegate.swift in Sources */,
-				F49D0A3524226B3D0050690B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F49D0A3824226B3D0050690B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F49D0A3924226B3D0050690B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F49D0A3D24226B3F0050690B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +372,12 @@
 		};
 		F49D0A4424226B3F0050690B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10969F000641E75A46B2CA1F /* Pods-Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44ST363BTK;
-				INFOPLIST_FILE = Firebase/Info.plist;
+				INFOPLIST_FILE = Firebase/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +385,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.ynascimento.Firebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F49D0A4524226B3F0050690B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC08A2B8D8A28256DD0F9EB5 /* Pods-Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44ST363BTK;
-				INFOPLIST_FILE = Firebase/Info.plist;
+				INFOPLIST_FILE = Firebase/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.ynascimento.Firebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,20 @@
+use_frameworks!
+platform :ios, '13.2'
+
+  pod 'Firebase/Analytics'
+  pod 'FirebaseUI'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Functions'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Storage'
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/InAppMessaging'
+  pod 'Firebase/Database'
+  pod 'Firebase/Performance'
+  pod 'Firebase/RemoteConfig'
+
+target 'Firebase' do
+end
