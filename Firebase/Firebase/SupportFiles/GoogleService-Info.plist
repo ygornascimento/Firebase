@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>401152688395-p4bgsnigvmq9oeqja9r0tqlt32ljnd47.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.401152688395-p4bgsnigvmq9oeqja9r0tqlt32ljnd47</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCIrFh1P_VD3Tgs0-28jSrGKvVN04pS6P4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>401152688395</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.ynascimento.Firebase</string>
+	<key>PROJECT_ID</key>
+	<string>fire-b36ba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fire-b36ba.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:401152688395:ios:5e20d403d9338eb5bc620e</string>
+	<key>DATABASE_URL</key>
+	<string>https://fire-b36ba.firebaseio.com</string>
+</dict>
+</plist>

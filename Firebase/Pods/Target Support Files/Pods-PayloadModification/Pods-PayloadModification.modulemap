@@ -1,0 +1,6 @@
+framework module Pods_PayloadModification {
+  umbrella header "Pods-PayloadModification-umbrella.h"
+
+  export *
+  module * { export * }
+}
