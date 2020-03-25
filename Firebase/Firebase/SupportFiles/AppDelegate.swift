@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return true
     }
-
+    //Mark: - Local Deeplinks
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         print(url)
 
@@ -89,8 +89,8 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         let userInfo = response.notification.request.content.userInfo
         let notificationInfo: NSDictionary = userInfo as NSDictionary
 
+        //Mark: - Push Notification Deeplinks
         if let url = URL(string: notificationInfo.value(forKey: "link_url") as? String ?? "fire://home") {
-
             switch url {
                 case URL(string: "fire://home"):
                     window?.rootViewController = homeViewController
@@ -104,6 +104,9 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         }
 
         completionHandler()
+    }
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .badge, .sound])
     }
 }
 

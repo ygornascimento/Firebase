@@ -20,11 +20,9 @@ class NotificationService: UNNotificationServiceExtension, MessagingDelegate {
         
         if let bestAttemptContent = bestAttemptContent {
             // Modify the notification content here...
-            bestAttemptContent.title = "\(bestAttemptContent.title) [modified by Ygor]"
-            
-            contentHandler(bestAttemptContent)
+            bestAttemptContent.title = "\(bestAttemptContent.title)"
 
-            
+            Messaging.serviceExtension().populateNotificationContent(bestAttemptContent, withContentHandler: contentHandler)
         }
     }
     
